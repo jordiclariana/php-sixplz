@@ -11,23 +11,3 @@ It is inspired from php-fastlz extension from t4rmin4t0r
 (https://github.com/t3rmin4t0r/php-fastlz) and its fork from iliaal
 (https://github.com/iliaal/php-fastlz)
 
-DISCLAIMER
-
-This is not suitable for production environments, at least not yet.
-
-INSTRUCTIONS:
-
-$ phpize && \
-  ./configure && \
-  make && \
-  make test && \
-  sudo make install
-
-INFO:
-The provided functions are:
-string sixplz_pack(mixed $value)
-string sixplz_unpack(mixed $value)
-
-sixplz_pack returns compressed $value.
-sixplz_unpack returns uncompressed $value.
-

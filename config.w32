@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("sixplz", "for sixplz support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("sixplz", "enable sixplz support", "no");
+
+if (PHP_SIXPLZ != "no") {
+	EXTENSION("sixplz", "sixplz.c");
+}
+
