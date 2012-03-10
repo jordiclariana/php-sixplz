@@ -7,7 +7,7 @@ Sixplz is a PHP extension that uses fastlz from Ariya Hidayat
 (http://www.fastlz.org) to compress data and the 6pack/6unpack
 utils to handle and ensure data consistency.
 
-It is inspired from php-fastlz extension from t4rmin4t0r
+It is inspired by php-fastlz extension from t4rmin4t0r
 (https://github.com/t3rmin4t0r/php-fastlz) and its fork from iliaal
 (https://github.com/iliaal/php-fastlz)
 

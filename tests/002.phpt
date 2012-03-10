@@ -7,7 +7,7 @@ Check for sixplz data consistency
 $BLOCK=1024;
 $length=1000;
 $data = array();
-for($x=0;$x<($length/$BLOCK);$x++) {
+for($x=0;$x<($length);$x++) {
         $data=$data . substr(str_shuffle(str_repeat('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',5)),0,$BLOCK);
 }
 $sdata=serialize($data);
